@@ -3,7 +3,7 @@ import pandas as pd
 from fastapi import HTTPException
 from pathlib import Path
 from .config import UPLOAD_DIR
-from . import logger
+from app.logger import logger
 
 SUPPORTED_EXTENSIONS = ('.csv', '.xls', '.xlsx')
 
