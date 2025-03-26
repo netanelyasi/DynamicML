@@ -1,6 +1,6 @@
 import pandas as pd
 from typing import Tuple, List, Dict
-from . import logger
+from app.logger import logger
 
 def analyze_dataframe(df: pd.DataFrame) -> Tuple[List[Dict], Dict]:
     if df.empty:
