@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 from pathlib import Path
 from typing import Tuple
 from .config import MODEL_DIR
-from . import logger
+from app.logger import logger
 from fastapi import HTTPException
 
 MODEL_PATH = MODEL_DIR / "model.pkl"
